@@ -1,0 +1,37 @@
+//importing the util class
+package java_basics;
+import java.util.*;
+//Scanner class in Java - Reads the input from the keyboard /console
+//Scanner class belongs to util package
+//System.out .. System. in and System.err
+public class readInput {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner =new Scanner(System.in);
+		int n=scanner.nextInt();//for int variable input 
+		float f=scanner.nextFloat();//for float variable input 
+		double d=scanner.nextDouble();//for double variable input 
+		String s=scanner.next();//for string 
+		char ch=scanner.next().charAt(0);//for character
+		
+		System.out.println("for int:"+n);
+		System.out.println("for Float:"+f);
+		System.out.println("for Double:"+d);
+		System.out.println("for String:"+s);
+		System.out.println("for character:"+ch);
+	}
+
+}
+Input:-
+1
+2
+3
+ankit
+ankit
+
+Output:-
+for int:1
+for Float:2.0
+for Double:3.0
+for String:ankit
+for character:a
