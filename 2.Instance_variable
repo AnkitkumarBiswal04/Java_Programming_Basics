@@ -1,0 +1,18 @@
+package java_basics;
+//2.Instance Variable 
+
+//Instance variable can only be declared by an object and can only be acessed by a class
+//declaration will be inside a class but outside a function
+//let us create a class A
+class A {
+	int a=100;
+}
+//main class 
+public class InstanceVariable {
+public static void main(String[] args) {
+	// TODO Auto-generated method stub
+	A obj=new A();
+	System.out.println(obj.a);
+	}
+
+}
