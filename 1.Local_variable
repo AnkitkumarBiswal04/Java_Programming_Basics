@@ -1,0 +1,17 @@
+package java_basics;
+//variables
+//local_variable
+//local variable is something that can be written in the function ,
+//constructor or block or in a conditional(if/else)or looping 
+public class variables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=100;
+		System.out.print(a);
+	}
+// if the variable is called outside the main program then it will show "cannot be resolved by a variable"
+//	void diplay() {
+//		System.out.print(a);
+//	}
+}
