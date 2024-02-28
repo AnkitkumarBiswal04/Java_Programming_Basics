@@ -1,0 +1,14 @@
+package java_basics;
+//4.Static_variable
+class C{
+	static int b=100;
+}
+public class staticVariable {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//static variable can be called by the class name i.e in this case it is C
+		 System.out.println(C.b);
+		 
+	}
+
+}
